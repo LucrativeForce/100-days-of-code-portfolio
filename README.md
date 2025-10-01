@@ -7,9 +7,10 @@ This means some projects will take multiple sessions (and therefore multiple “
 
 ---
 
-## 📑 Table of Contents  
-- [Day 1 – September 30, 2025 (Project 1, Part A)](#day-1--september-30-2025-project-1-part-a)  
+📑 Table of Contents
 
+- [Day 1 – September 30, 2025 (Project 1, Part A)](#day-1--september-30-2025-project-1-part-a)
+- [Day 2 – October 1, 2025 (Project 1, Part B)](#day-2--october-1-2025-project-1-part-b)
 ---
 
 ## Day 1 – September 30, 2025 (Project 1, Part A)  
