@@ -12,6 +12,7 @@ This means some projects will take multiple sessions (and therefore multiple “
 - [September 30, 2025 – Project 1, Part A](#september-30-2025--project-1-part-a)  
 - [October 1, 2025 – Project 1, Part B](#october-1-2025--project-1-part-b)  
 - [October 6, 2025 – Data Types & Math Operations](#october-6-2025--data-types--math-operations)
+- [October 8, 2025 – Tip Calculator Project](#october-8-2025--tip-calculator-project)
 
 ---
 
@@ -188,3 +189,59 @@ Today I really started understanding data types — and how Python sees numbers 
 I learned how to fix TypeErrors, use type conversions, and even practiced math order (PEMDAS).
 It’s starting to click how everything fits together — the logic, the structure, and the patterns in the code.
 Feeling proud of today’s progress. 🙌
+
+---
+
+---
+
+## 🐍 October 8, 2025 – Tip Calculator Project  
+
+### 🌱 What I Learned  
+- How to combine user input with math operations.  
+- How to convert strings into floats and integers using `float()` and `int()`.  
+- How to calculate percentages and split totals evenly.  
+- How to use `round()` to control decimal places.  
+- The difference between a single-line solution and a step-by-step version for readability.  
+- Reinforced how assignment operators and variable naming make code more organized and logical.  
+
+---
+
+### 💻 Code I Wrote – My Own Version  
+```python
+print("Welcome to the tip calculator!")
+
+bill = float(input("What was the total bill? $"))
+tip = int(input("What percentage tip would you like to give? 10 12 15 "))
+people = int(input("How many people to split the bill? "))
+
+print(f"Each person should pay: ${round((bill * (1 + tip / 100)) / people, 2)}")
+```
+💡 Instructor Version (Broken Down Step by Step)
+```
+print("Welcome to the tip calculator!")
+
+bill = float(input("What was the total bill? $"))
+tip = int(input("What percentage tip would you like to give? 10, 12, or 15? "))
+people = int(input("How many people to split the bill? "))
+
+tip_as_percent = tip / 100
+total_tip_amount = bill * tip_as_percent
+total_bill = bill + total_tip_amount
+bill_per_person = total_bill / people
+final_amount = round(bill_per_person, 2)
+
+print(f"Each person should pay: ${final_amount}")
+```
+🧮 Sample Output
+```
+Welcome to the tip calculator!
+What was the total bill? $150
+What percentage tip would you like to give? 10 12 15 12
+How many people to split the bill? 5
+Each person should pay: $33.60
+```
+✨ Reflection
+
+Today I completed the Tip Calculator Project, and it really clicked how important parentheses and logic order are.
+I learned that writing shorter code is fun and powerful, but breaking it down step by step makes it easier to understand and maintain.
+It was rewarding to figure out the formula on my own before watching the instructor’s deeper breakdown — that showed me I’m actually learning to think like a programmer.
