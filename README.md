@@ -13,6 +13,7 @@ This means some projects will take multiple sessions (and therefore multiple “
 - [October 1, 2025 – Project 1, Part B](#october-1-2025--project-1-part-b)  
 - [October 6, 2025 – Data Types & Math Operations](#october-6-2025--data-types--math-operations)
 - [October 8, 2025 – Tip Calculator Project](#october-8-2025--tip-calculator-project)
+- [October 20, 2025 – Odd or Even Checker](#-october-20-2025--odd-or-even-checker)
 
 ---
 
@@ -240,8 +241,47 @@ What percentage tip would you like to give? 10 12 15 12
 How many people to split the bill? 5
 Each person should pay: $33.60
 ```
+
 ✨ Reflection
 
 Today I completed the Tip Calculator Project, and it really clicked how important parentheses and logic order are.
 I learned that writing shorter code is fun and powerful, but breaking it down step by step makes it easier to understand and maintain.
 It was rewarding to figure out the formula on my own before watching the instructor’s deeper breakdown — that showed me I’m actually learning to think like a programmer.
+
+## October 20, 2025 – Odd or Even Checker  
+*(Day 3 – Conditional Logic & Modulo Operator)*  
+
+### 🌱 What I Learned  
+• Practiced using the **modulo operator (`%`)** to determine whether a number is even or odd.  
+• Understood that `%` returns the *remainder* after division.  
+• Learned that `% 2` checks if something divides evenly by 2 (even = remainder 0, odd = remainder 1).  
+• Differentiated between `=` (assignment) and `==` (comparison).  
+• Debugged a “`:` expected” syntax error and understood how Python enforces indentation and colon placement.  
+• Continued improving code readability with **syntax sugar** and clean spacing.  
+
+---
+
+### 💻 Code I Wrote  
+```python
+# Odd or Even Checker
+number_to_check = int(input("What is the number you want to check? "))
+
+if number_to_check % 2 == 0:
+    print("even")
+else:
+    print("odd")
+```
+
+🧠 Key Takeaways
+
+✅ Modulo Magic: The modulo operator can check patterns and cycles, not just even/odd — e.g., % 3 for every 3rd loop.
+✅ Logic Building: == is essential for logical checks inside conditionals, ensuring true/false evaluations.
+✅ Syntax Awareness: Proper spacing and indentation are required in Python — it’s not just visual, it affects execution.
+✅ Programmer Mindset: I’m learning to debug logically, test systematically, and read my code like a problem-solver.
+
+🗣 Reflection
+
+Today I explored how conditionals and modulo work together to create logic checks.
+At first, I forgot the second = in my comparison, which caused a syntax issue, but now I understand why it’s required.
+Writing and testing the code myself helped solidify the lesson — I can now clearly see how to use modulo to create logical branching in my programs.
+This was one of the first times the math, logic, and syntax all clicked together at once. 🚀
