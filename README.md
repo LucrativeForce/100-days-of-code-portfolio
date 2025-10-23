@@ -7,13 +7,13 @@ This means some projects will take multiple sessions (and therefore multiple “
 
 ---
 
-### 📑 Table of Contents
+📑 **Table of Contents**
 
-- [September 30, 2025 – Project 1, Part A](#september-30-2025--project-1-part-a)  
-- [October 1, 2025 – Project 1, Part B](#october-1-2025--project-1-part-b)  
-- [October 6, 2025 – Data Types & Math Operations](#october-6-2025--data-types--math-operations)
+- [September 30, 2025 – Project 1, Part A](#september-30-2025--project-1-part-a)
+- [October 1, 2025 – Project 1, Part B](#october-1-2025--project-1-part-b)
+- [October 5, 2025 – Data Types & Math Operations](#october-5-2025--data-types--math-operations)
 - [October 8, 2025 – Tip Calculator Project](#october-8-2025--tip-calculator-project)
-- [October 20, 2025 – Odd or Even Checker](#-october-20-2025--odd-or-even-checker)
+- [October 20, 2025 – Odd or Even Checker](#october-20-2025--odd-or-even-checker)
 
 ---
 
