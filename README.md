@@ -17,7 +17,7 @@ This means some projects will take multiple sessions (and therefore multiple “
 
 ---
 
-## September 30, 2025 – Progress Log: Project 1, Part A
+## September 30, 2025 – Project 1, Part A
 
 ### 🌱 What I Learned  
 - How to use the `print()` function to display text.  
@@ -54,7 +54,7 @@ Today I wrote my very first lines of Python code. Printing text and joining word
 
 ---
 
-## October 1, 2025 – Progress Log: Project 1, Part B
+## October 1, 2025 – Project 1, Part B
 
 ### 🌱 What I Learned
 
@@ -106,7 +106,7 @@ Today I had my “aha!” moment with variables. I realized that variables are l
 
 ---
 
-## October 5, 2025 – Progress Log: Data Types & Math Operations
+## October 5, 2025 – Data Types & Math Operations
 
 ---
 
@@ -195,7 +195,7 @@ Feeling proud of today’s progress. 🙌
 
 ---
 
-## 🐍 October 8, 2025 – Tip Calculator Project  
+## October 8, 2025 – Tip Calculator Project
 
 ### 🌱 What I Learned  
 - How to combine user input with math operations.  
@@ -248,7 +248,8 @@ Today I completed the Tip Calculator Project, and it really clicked how importan
 I learned that writing shorter code is fun and powerful, but breaking it down step by step makes it easier to understand and maintain.
 It was rewarding to figure out the formula on my own before watching the instructor’s deeper breakdown — that showed me I’m actually learning to think like a programmer.
 
-## October 20, 2025 – Odd or Even Checker  
+## October 20, 2025 – Odd or Even Checker
+
 *(Day 3 – Conditional Logic & Modulo Operator)*  
 
 ### 🌱 What I Learned  
