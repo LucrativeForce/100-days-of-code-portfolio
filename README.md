@@ -14,6 +14,7 @@ This means some projects will take multiple sessions (and therefore multiple “
 - [October 5, 2025 – Data Types & Math Operations](#october-5-2025--data-types--math-operations)
 - [October 8, 2025 – Tip Calculator Project](#october-8-2025--tip-calculator-project)
 - [October 20, 2025 – Odd or Even Checker](#october-20-2025--odd-or-even-checker)
+- [October 25, 2025 – Task 5 Day 3 Python Pizza](#october-25-2025--task-5-day-3-python-pizza)
 
 ---
 
@@ -286,3 +287,59 @@ Today I explored how conditionals and modulo work together to create logic check
 At first, I forgot the second = in my comparison, which caused a syntax issue, but now I understand why it’s required.
 Writing and testing the code myself helped solidify the lesson — I can now clearly see how to use modulo to create logical branching in my programs.
 This was one of the first times the math, logic, and syntax all clicked together at once. 🚀
+
+
+## October 25, 2025 – Task 5 Day 3 Python Pizza
+
+### 💻 Code I Wrote
+```python
+print("Welcome to Python Pizza Deliveries!")
+size = input("What size pizza do you want? S, M or L: ")
+bill = 0
+if size == "S":
+    bill = 15
+
+if size == "M":
+    bill = 20
+
+if size == "L":
+    bill = 25
+
+pepperoni = input("Do you want pepperoni on your pizza? Y or N: ")
+
+if pepperoni == "Y":
+    if size == "S":
+        bill += 2
+    elif size == "M" or "L":
+        bill += 3
+    else:
+        bill += 0
+
+extra_cheese = input("Do you want extra cheese? Y or N: ")
+
+if extra_cheese == "Y":
+    bill += 1
+else:
+    bill += 0
+
+print(f"Your bill is ${bill}, thank you for your order!")
+```
+### 🧮 Sample Output
+```python
+/usr/local/bin/python3.13 /Users/amandastevens/PycharmProjects/100 Days of Code - The Complete Python Pro Bootcamp/Day 3/Python Pizza/task.py 
+Welcome to Python Pizza Deliveries!
+What size pizza do you want? S, M or L: L
+Do you want pepperoni on your pizza? Y or N: Y
+Do you want extra cheese? Y or N: Y
+Your bill is $29, thank you for your order!
+
+Process finished with exit code 0
+```
+### 🌱 What I Learned  
+- Nested if statements create layered logic for multi-step decisions.
+- "Y" vs variable == "Y" is a key debugging concept — one checks, the other assumes.
+- Incremental addition (+=) keeps calculations flexible and readable.
+- Writing code to mirror a flowchart is one of the best ways to debug complex logic.
+- I can now visualize the logic in my head before writing it — proof of real progress.
+- I'm also getting the hang of GitHub (tiny bit)
+
