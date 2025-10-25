@@ -1,10 +1,9 @@
 # 🐍 100 Days of Code – My Python Journey  
 
-I’m following the 100 Days of Code challenge, but at my own pace.  
+I’m following the 100 Days of Code challenge.  
 Instead of rushing through one project per day, I’m documenting each coding session so I can focus on *understanding deeply before moving on*.  
 
-This means some projects will take multiple sessions (and therefore multiple “days” in my log). That’s perfectly fine — the goal is **consistency and growth, not speed**.  
-
+That way I can create with AI tools on a deeper level! 🤩🥳
 ---
 
 📑 **Table of Contents**
