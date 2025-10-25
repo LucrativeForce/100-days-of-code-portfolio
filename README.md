@@ -373,3 +373,4 @@ if extra_cheese == "Y":
 print(f"Your bill is ${bill}, thank you for your order!")
 ```
 - Cleaned up
+- I can see how next time I will clean it up more by stacking variables at the top and commenting inbetween seperate codes
