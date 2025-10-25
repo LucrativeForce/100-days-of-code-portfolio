@@ -332,9 +332,8 @@ What size pizza do you want? S, M or L: L
 Do you want pepperoni on your pizza? Y or N: Y
 Do you want extra cheese? Y or N: Y
 Your bill is $29, thank you for your order!
-
-Process finished with exit code 0
 ```
+
 ### 🌱 What I Learned  
 - Nested if statements create layered logic for multi-step decisions.
 - "Y" vs variable == "Y" is a key debugging concept — one checks, the other assumes.
@@ -343,3 +342,35 @@ Process finished with exit code 0
 - I can now visualize the logic in my head before writing it — proof of real progress.
 - I'm also getting the hang of GitHub (tiny bit)
 
+### Code Fix-up after checking
+```python
+
+print("Welcome to Python Pizza Deliveries!")
+size = input("What size pizza do you want? S, M or L: ")
+bill = 0
+if size == "S":
+    bill += 15
+elif size == "M":
+    bill = 20
+elif size == "L":
+    bill = 25
+
+else:
+    print("You typed in the wrong input")
+
+pepperoni = input("Do you want pepperoni on your pizza? Y or N: ")
+
+if pepperoni == "Y":
+    if size == "S":
+        bill += 2
+    else:
+        bill += 3
+
+extra_cheese = input("Do you want extra cheese? Y or N: ")
+
+if extra_cheese == "Y":
+    bill += 1
+
+print(f"Your bill is ${bill}, thank you for your order!")
+```
+- Cleaned up
