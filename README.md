@@ -14,6 +14,7 @@ That way I can create with AI tools on a deeper level! 🤩🥳
 - [October 8, 2025 – Tip Calculator Project](#october-8-2025--tip-calculator-project)
 - [October 20, 2025 – Odd or Even Checker](#october-20-2025--odd-or-even-checker)
 - [October 25, 2025 – Task 5 Day 3 Python Pizza](#october-25-2025--task-5-day-3-python-pizza)
+- [November 10, 2025 – Section 3 Logical Operations](#november-10-2025--section-3-logical-operations)
 
 ---
 
@@ -108,14 +109,11 @@ Today I had my “aha!” moment with variables. I realized that variables are l
 
 ## October 5, 2025 – Data Types & Math Operations
 
----
 
 ### 🔁 Revisiting Previous Code: Band Name Generator Fix
 
 Today I reviewed and improved my Band Name Generator from earlier in the course.  
 I fixed the input spacing issue and improved how the final band name is displayed.
-
----
 
 ### 🧩 Updated Code
 
@@ -133,8 +131,6 @@ band_name = city + " " + pet
 # Display result
 print("Your band name could be: " + band_name)
 ```
----
-
 ### 🌱 What I Learned
 - The four basic data types in Python:  
   - **String (`str`)** → text inside quotes  
@@ -149,8 +145,6 @@ print("Your band name could be: " + band_name)
   - `float()` to turn text numbers into decimals  
 - Learned about **PEMDAS** order of operations in math expressions:  
   **Parentheses → Exponents → Multiplication/Division → Addition/Subtraction.**
-
----
 
 ### 🧩 Code I Wrote
 
@@ -193,8 +187,6 @@ Feeling proud of today’s progress. 🙌
 
 ---
 
----
-
 ## October 8, 2025 – Tip Calculator Project
 
 ### 🌱 What I Learned  
@@ -204,8 +196,6 @@ Feeling proud of today’s progress. 🙌
 - How to use `round()` to control decimal places.  
 - The difference between a single-line solution and a step-by-step version for readability.  
 - Reinforced how assignment operators and variable naming make code more organized and logical.  
-
----
 
 ### 💻 Code I Wrote – My Own Version  
 ```python
@@ -248,6 +238,8 @@ Today I completed the Tip Calculator Project, and it really clicked how importan
 I learned that writing shorter code is fun and powerful, but breaking it down step by step makes it easier to understand and maintain.
 It was rewarding to figure out the formula on my own before watching the instructor’s deeper breakdown — that showed me I’m actually learning to think like a programmer.
 
+---
+
 ## October 20, 2025 – Odd or Even Checker
 
 *(Day 3 – Conditional Logic & Modulo Operator)*  
@@ -259,8 +251,6 @@ It was rewarding to figure out the formula on my own before watching the instruc
 • Differentiated between `=` (assignment) and `==` (comparison).  
 • Debugged a “`:` expected” syntax error and understood how Python enforces indentation and colon placement.  
 • Continued improving code readability with **syntax sugar** and clean spacing.  
-
----
 
 ### 💻 Code I Wrote  
 ```python
@@ -287,6 +277,7 @@ At first, I forgot the second = in my comparison, which caused a syntax issue, b
 Writing and testing the code myself helped solidify the lesson — I can now clearly see how to use modulo to create logical branching in my programs.
 This was one of the first times the math, logic, and syntax all clicked together at once. 🚀
 
+---
 
 ## October 25, 2025 – Task 5 Day 3 Python Pizza
 
@@ -374,3 +365,75 @@ print(f"Your bill is ${bill}, thank you for your order!")
 ```
 - Cleaned up
 - I can see how next time I will clean it up more by stacking variables at the top and commenting inbetween seperate codes
+
+---
+
+## November 10, 2025 – Section 3 Logical Operations
+
+### 🌱 What I Learned 
+- I left this part on the last date journaled to quickly figure out where the holde ups were in this exercise. 
+- Indenting is and placement is everything. 
+- Changing age >= 45 and age <= 55: into an if instead of elif brought everything together.
+- Found the end else: bug was indented too much and fixed that.
+- This was fun!
+
+### 💻 Code I Wrote
+```python
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+bill = 0
+
+if height >= 120:
+    print("You can ride the rollercoaster!")
+    age = int(input("What is your age? "))
+
+    if age < 12:
+        bill += 5
+        print("Child tickets are $5.")
+    elif age <= 18:
+        bill += 7
+        print("Youth tickets are $7.")
+
+    if age >= 45 and age <= 55:
+            bill = 0
+            print("Free tickets")
+    else:
+        bill += 12
+        print("Adult tickets are $12.")
+
+    wants_photo = input("Do you want a photo taken? Y or N. ")
+    if wants_photo == "Y":
+        bill += 3
+        print(f"Your final bill is ${bill}")
+    elif wants_photo == "N":
+        print(f"Your final bill is ${bill}.")
+
+else:
+    print("Sorry, you have to grow taller before you can ride.")
+```
+
+### 🧮 Sample Output
+```python
+
+Welcome to the rollercoaster!
+What is your height in cm? 135
+You can ride the rollercoaster!
+What is your age? 46
+Free tickets
+Do you want a photo taken? Y or N. Y
+Your final bill is $3
+
+```
+and
+```python
+Welcome to the rollercoaster!
+What is your height in cm? 188
+You can ride the rollercoaster!
+What is your age? 33
+Adult tickets are $12.
+Do you want a photo taken? Y or N. N
+Your final bill is $12.
+
+Process finished with exit code 0
+```
+
