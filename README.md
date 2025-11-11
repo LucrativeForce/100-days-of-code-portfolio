@@ -14,7 +14,7 @@ That way I can create with AI tools on a deeper level! 🤩🥳
 - [October 8, 2025 – Tip Calculator Project](#october-8-2025--tip-calculator-project)
 - [October 20, 2025 – Odd or Even Checker](#october-20-2025--odd-or-even-checker)
 - [October 25, 2025 – Task 5 Day 3 Python Pizza](#october-25-2025--task-5-day-3-python-pizza)
-- [November 10, 2025 – Section 3 Logical Operations](#november-10-2025--section-3-logical-operations)
+- [November 10, 2025 – Section 3 Task 6, Logical Operations](#november-10-2025--section-3-task-6-logical-operations)
 
 ---
 
@@ -368,7 +368,7 @@ print(f"Your bill is ${bill}, thank you for your order!")
 
 ---
 
-## November 10, 2025 – Section 3 Logical Operations
+## [November 10, 2025 – Section 3 Task 6, Logical Operations
 
 ### 🌱 What I Learned 
 - I left this part on the last date journaled to quickly figure out where the holde ups were in this exercise. 
