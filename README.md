@@ -232,7 +232,7 @@ How many people to split the bill? 5
 Each person should pay: $33.60
 ```
 
-✨ Reflection
+### ✨ Reflection
 
 Today I completed the Tip Calculator Project, and it really clicked how important parentheses and logic order are.
 I learned that writing shorter code is fun and powerful, but breaking it down step by step makes it easier to understand and maintain.
@@ -414,7 +414,6 @@ else:
 
 ### 🧮 Sample Output
 ```python
-
 Welcome to the rollercoaster!
 What is your height in cm? 135
 You can ride the rollercoaster!
@@ -436,4 +435,68 @@ Your final bill is $12.
 
 Process finished with exit code 0
 ```
+### 🌱 What I Learned
+- Practiced method chaining today with `.strip()` and `.capitalize()` and realized that they read left to right, sometimes need to be in order or don't work properly.
+- Learned a bit about ASCII art.
 
+### 💻 Code I Wrote
+```python
+print(r'''
+          ,---,
+  _    _,-'    `--,
+ ( `-,'            `\
+  \           ,    o \
+  /   ,       ;       \
+ (_,-' \       `, _  ""/
+        `-,___ =='__,-'
+              ````
+''')
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.")
+print("You look at your map and see 2 paths to the giant `X`.")
+
+direction = input("Which path do you take? Left or Right? ").strip().capitalize()
+
+if direction == "Right":
+    print("A tiger jumps out and slashes you! Game over.")
+if direction == "Left":
+    print("You go left and reach the river! it looks calm.")
+
+    choice = input("Swim or Wait? ").strip().capitalize()
+
+    if choice == "Swim":
+        print("Piranhas eat you alive! Game over.")
+    if choice == "Wait":
+        print("You catch a boat ride  to the other side!")
+
+        print("You see 3 X's on the beach.")
+
+        color = input("Choose Red, Blue, or Yellow! ").strip().capitalize()
+
+        if color == "Yellow":
+            print("You found the treasure! You are a new billionaire!")
+        else:
+            print("You didn't find the treasure in time, and you have to go back to the tent.")
+```
+
+### 🧮 Sample Output
+```python
+          ,---,
+  _    _,-'    `--,
+ ( `-,'            `\
+  \           ,    o \
+  /   ,       ;       \
+ (_,-' \       `, _  ""/
+        `-,___ =='__,-'
+              ````
+
+Welcome to Treasure Island.
+Your mission is to find the treasure.
+You look at your map and see 2 paths to the giant `X`.
+Which path do you take? Left or Right? Left
+You go left and reach the river! it looks calm.
+Swim or Wait? Swim
+Piranhas eat you alive! Game over.
+```
+### ✨ Reflection
+- After watching the solution I've learned that you use a \ infront of important symbols to act as an escape button.
