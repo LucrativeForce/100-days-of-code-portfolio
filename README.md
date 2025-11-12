@@ -15,6 +15,7 @@ That way I can create with AI tools on a deeper level! 🤩🥳
 - [October 20, 2025 – Odd or Even Checker](#october-20-2025--odd-or-even-checker)
 - [October 25, 2025 – Task 5 Day 3 Python Pizza](#october-25-2025--task-5-day-3-python-pizza)
 - [November 10, 2025 – Section 3 Task 6, Logical Operations](#november-10-2025--section-3-task-6-logical-operations)
+- [November 12, 2025 – Section 3 Task 7, Treasure Island Project](#november-12-2025--section-3-task-7-treasure-island-project)
 
 ---
 
@@ -435,6 +436,10 @@ Your final bill is $12.
 
 Process finished with exit code 0
 ```
+---
+
+## November 12, 2025 – Section 3 Task 7, Treasure Island Project
+
 ### 🌱 What I Learned
 - Practiced method chaining today with `.strip()` and `.capitalize()` and realized that they read left to right, sometimes need to be in order or don't work properly.
 - Learned a bit about ASCII art.
@@ -499,4 +504,11 @@ Swim or Wait? Swim
 Piranhas eat you alive! Game over.
 ```
 ### ✨ Reflection
-- After watching the solution I've learned that you use a \ infront of important symbols to act as an escape button.
+- After watching the solution I've learned that you use a `\` infront of important symbols to act as an escape button.
+- Refresher to solidify knowledge on `'n` after an input string makes it so the user types answer on line below the question.
+
+### 💻 Code I Wrote
+```python
+print("You look at your map and see 2 paths to the giant \"X\".")
+direction = input("Which path do you take? Left or Right?\n").strip().capitalize()
+```
