@@ -503,12 +503,27 @@ You go left and reach the river! it looks calm.
 Swim or Wait? Swim
 Piranhas eat you alive! Game over.
 ```
-### ✨ Reflection
-- After watching the solution I've learned that you use a `\` infront of important symbols to act as an escape button.
-- Refresher to solidify knowledge on `'n` after an input string makes it so the user types answer on line below the question.
 
 ### 💻 Code I Wrote
 ```python
 print("You look at your map and see 2 paths to the giant \"X\".")
 direction = input("Which path do you take? Left or Right?\n").strip().capitalize()
 ```
+### ✨ Reflection
+- After watching the solution I've learned that you use a `\` infront of important symbols to act as an escape button.
+- Refresher to solidify knowledge on `'n` after an input string makes it so the user types answer on line below the question.
+- Starting Day 4 below- made a heads and tails randomizer.
+
+### 💻 Code I Wrote
+```python
+import random
+
+
+number_game = random.randint(1,2)
+
+if number_game == 1:
+    print("Heads")
+else:
+    print("Tails")
+```
+
