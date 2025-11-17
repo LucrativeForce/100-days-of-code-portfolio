@@ -16,7 +16,7 @@ That way I can create with AI tools on a deeper level! 🤩🥳
 - [October 25, 2025 – Task 5 Day 3 Python Pizza](#october-25-2025--task-5-day-3-python-pizza)
 - [November 10, 2025 – Section 3 Task 6, Logical Operations](#november-10-2025--section-3-task-6-logical-operations)
 - [November 12, 2025 – Section 3 Task 7, Treasure Island Project](#november-12-2025--section-3-task-7-treasure-island-project)
-- [November 17, 2025 – Section 4 Tasks 1 - 5, Rock Paper Scissors](#november-17-2025--section-4-tasks-1---5-rock-paper-scissors)
+- [November 17, 2025 – Section 4 Tasks 1 - 5, Rock Paper Scissors](#november-17-2025--section-4-tasks-1-5-rock-paper-scissors)
 
 ---
 
