@@ -16,6 +16,7 @@ That way I can create with AI tools on a deeper level! 🤩🥳
 - [October 25, 2025 – Task 5 Day 3 Python Pizza](#october-25-2025--task-5-day-3-python-pizza)
 - [November 10, 2025 – Section 3 Task 6, Logical Operations](#november-10-2025--section-3-task-6-logical-operations)
 - [November 12, 2025 – Section 3 Task 7, Treasure Island Project](#november-12-2025--section-3-task-7-treasure-island-project)
+- [November 17, 2025 – Section 4 Tasks 1 - 5, Rock Paper Scissors](#november-17-2025--section-4-tasks-1---5-rock-paper-scissors)
 
 ---
 
@@ -526,4 +527,139 @@ if number_game == 1:
 else:
     print("Tails")
 ```
+---
 
+### November 17, 2025 – Section 4 Tasks 1-5, Rock Paper Scissors
+
+### 🌱 What I Learned
+- random modules
+- I can create my own module to keep project organized
+- Lists, negative indices, modifying items, adding items, joining lists etc.
+
+### 💻 Code I Wrote Task 1
+```python
+import random
+number_game = random.randint(1,2)
+
+if number_game == 1:
+    print("Heads")
+else:
+    print("Tails")
+```
+### Task 2
+```python
+import random
+
+friends = ["Alice", "Bob", "Charlie", "David", "Emanuel"]
+
+# first option that I created from what I know. I looked in Python documentation but didn't
+# understand the word choice could be used.
+
+random_number = random.randint(0,4)
+print(friends[random_number])
+
+# After watching the solution I learned that we can use the word choice.
+
+print(random.choice(friends))
+```
+### 🧮 Sample Output
+```python
+/usr/local/bin/python3.13 /Users/amandastevens/PycharmProjects/100 Days of Code - The Complete Python Pro Bootcamp/Day 4/Banker Roulette/task.py 
+Emanuel
+Bob
+
+Process finished with exit code 0
+```
+### 💻 Code I Wrote Task 5, Rock Paper Scissors
+```python
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+import random
+
+
+
+
+list = [rock, paper, scissors]
+
+user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
+
+if user_choice == 0:
+     print(rock)
+if user_choice == 1:
+     print(paper)
+if user_choice == 2:
+     print(scissors)
+
+
+print("Computer chose:")
+
+computer_choice = random.randint(0,2)
+
+print(list[computer_choice])
+
+if user_choice == computer_choice:
+    print("It's a draw!")
+
+if (user_choice == 0
+        and computer_choice == 2
+        or user_choice == 1
+        and computer_choice == 0
+        or user_choice == 2
+        and computer_choice == 1):
+    print("You win!")
+
+if (user_choice == 2
+        and computer_choice == 0
+        or user_choice == 0
+        and computer_choice == 1
+        or user_choice == 1
+        and computer_choice == 2):
+    print("You lost!")
+```
+### 🧮 Sample Output
+```python
+What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.
+0
+
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+
+Computer chose:
+
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+
+It's a draw!
+```
