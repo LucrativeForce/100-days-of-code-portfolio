@@ -666,7 +666,7 @@ It's a draw!
 ```
 ---
 
-### January 28, 2026 – Section 5 Tasks 2, Highest Score
+### January 28, 2026 – Section 5 Task 2, Highest Score
 
 ### 🌱 What I Learned
 - Variable names are not “roles.”
