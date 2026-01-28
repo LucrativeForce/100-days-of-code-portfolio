@@ -665,4 +665,4 @@ Computer chose:
 It's a draw!
 ```
 
-## November 17, 2025 – Section 4 Tasks 1 - 5, Rock Paper Scissors
+## January 28, 2026 – Section 5 Tasks 2, Highest Score
