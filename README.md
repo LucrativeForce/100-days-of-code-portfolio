@@ -664,5 +664,23 @@ Computer chose:
 
 It's a draw!
 ```
+---
 
-## January 28, 2026 – Section 5 Tasks 2, Highest Score
+### January 28, 2026 – Section 5 Tasks 2, Highest Score
+
+### 🌱 What I Learned
+- Variable names are not “roles.”
+They are exact labels.
+
+### 💻 Code I Wrote
+```python
+student_scores = [150, 142, 185, 120, 171, 184, 149, 24, 59, 68, 199, 78, 65, 89, 86, 55, 91, 64, 89]
+
+score = student_scores[0]
+
+for highest_score in student_scores:
+    if highest_score > score:
+        score = highest_score
+
+print(score)
+```
