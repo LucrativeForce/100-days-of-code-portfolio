@@ -17,7 +17,7 @@ That way I can create with AI tools on a deeper level! 🤩🥳
 - [November 10, 2025 – Section 3 Task 6, Logical Operations](#november-10-2025--section-3-task-6-logical-operations)
 - [November 12, 2025 – Section 3 Task 7, Treasure Island Project](#november-12-2025--section-3-task-7-treasure-island-project)
 - [November 17, 2025 – Section 4 Tasks 1 - 5, Rock Paper Scissors](#november-17-2025--section-4-tasks-1-5-rock-paper-scissors)
-- [January_28, 2026 – Section 5 Task 2, Highest_Score](#january-28-2026--section-5-task-2-highest-score)
+- [January 28, 2026 – Section 5 Task 2, Highest Score](#january-28-2026--section-5-task-2-highest-score)
 
   
 
